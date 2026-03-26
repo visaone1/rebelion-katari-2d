@@ -1,6 +1,6 @@
-# Túpac Katari: La Marcha de los Millones
+# Túpac Katari: La Marcha de los MillonesS
 
-Descripción: Videojuego de plataformas 2D que recrea la histórica rebelión de Túpac Katari en 1781. El jugador controla a Julián Apaza en su lucha por la libertad de los pueblos andinos, atravesando diferentes niveles que representan hitos históricos del cerco a La Paz.
+Descripción: Videojuego de plataformas 2D que recrea la histórica rebelión de Túpac Katari en 1781. El jugador controla a Julián Apaza en su lucha por la libertad de los pueblos andinos, atravesando los diferentes niveles que representan hitos históricos del cerco a La Paz.
 
 Género: Plataformas 2D (Side-scroller)
 Plataforma Objetivo: PC (Windows)
