@@ -11,6 +11,7 @@ Estado del Proyecto: Hito 2 - Estructura Base y Prototipo Inicial
 * Marcelo Velarde Ali
 * Dylan de Jesus Butron Ticona
 * Cristopher Fabricio Flores Tinta
+* Cris kleber ballon
 
 Instrucciones para Ejecutar el Proyecto
 1. Clonar el repositorio en tu máquina local: 
