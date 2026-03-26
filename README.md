@@ -20,3 +20,4 @@ Instrucciones para Ejecutar el Proyecto
 3. Asegurarse de tener instalados los módulos de soporte para 2D en Unity.
 4. Dentro de Unity, navegar a la carpeta `Assets/_Project/Scenes/` y abrir la escena principal.
 5. Presionar el botón **Play** en el editor de Unity para probar el prototipo.
+- [26/03/2026] Actualización de documentación y personalización del equipo por Marcelo Velarde.

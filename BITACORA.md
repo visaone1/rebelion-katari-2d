@@ -5,3 +5,4 @@
 - Se configuró la estructura inicial de carpetas del proyecto.
 - Se redactó el README.md y esta BITACORA.md.
 - Se crearon las ramas `develop` y `feature/movimiento-katari` simulando el Git Flow.
+- [26/03/2026] Actualización de documentación y personalización del equipo por Marcelo Velarde.
