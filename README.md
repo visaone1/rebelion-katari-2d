@@ -1,7 +1,5 @@
 # Rebelion Katari 2D 
-Aqui tienes la version expandida con una cantidad masiva de referencias, repositorios, foros y librerias. He mantenido el formato de texto plano, sin emojis y sin tildes ni caracteres especiales, para que puedas copiarlo y pegarlo directamente.
 
-## REBELION KATARI 2D
 
 EQUIPO DE DESARROLLO
 
@@ -15,15 +13,6 @@ EQUIPO DE DESARROLLO
 CONCEPTO Y ORIGEN DEL CODIGO
 Este proyecto de 16 bits es el resultado de la combinacion, adaptacion y optimizacion de multiples recursos extraidos de internet. Es un esfuerzo colaborativo que une piezas de foros, repositorios abiertos y bancos de recursos gratuitos.
 
-MECANICAS PRINCIPALES
-
-* Rescate en el Nivel 1: El objetivo principal es combatir enemigos para lograr rescatar aymaras cautivos.
-* Economia de Vidas: Cada 100 monedas recolectadas suman automaticamente una vida extra.
-* Sistema de Habilidades: El personaje central utiliza estrictamente 2 habilidades.
-
----
-
-BASE DE DATOS MASIVA DE RECURSOS Y LINKS
 
 REPOSITORIOS DE CODIGO Y SCRIPTS (UNITY Y C#)
 
@@ -98,6 +87,6 @@ HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL Y UTILIDADES
 
 CRONOGRAMA DE DESARROLLO
 
-* 11 de Junio: Ensamblaje masivo de recursos de internet, limpieza del repositorio y sincronizacion con GitHub.
-* 16 de Junio: Presentacion previa del prototipo funcional del Nivel 1. Integracion de scripts base y spritesheets.
+* 20 de mayo: Ensamblaje masivo de recursos de internet, limpieza del repositorio y sincronizacion con GitHub.
+* 10 de Junio: Presentacion previa del prototipo funcional del Nivel 1. Integracion de scripts base y spritesheets.
 * 18 de Junio: Entrega final garantizada con cero bugs. Compilacion en Unity lista para despliegue.
