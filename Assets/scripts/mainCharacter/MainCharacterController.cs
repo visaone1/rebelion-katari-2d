@@ -34,14 +34,13 @@ public class MainCharacterController : MonoBehaviour
     private Vector2 dashVector2;
     public float dashDurantion = 0.1f;
     private float dashTimer = 0;
-    public float dashCooldown = 1f; // Cooldown süresi
-    private float dashCooldownTimer = 0; // Cooldown zamanlayıcısı
-
+    public float dashCooldown = 1f; 
+    private float dashCooldownTimer = 0; 
     private Rigidbody2D playerRigidBody2D;
     private SpriteRenderer playerSpriteRenderer;
     private GameObject StairsHelper;
     private Animator playerAnimator;
-    private TrailRenderer trailRenderer; // Trail Renderer reference
+    private TrailRenderer trailRenderer; 
 
     private bool isOnGround = false;
     private bool isJumping = false;
@@ -56,10 +55,10 @@ public class MainCharacterController : MonoBehaviour
         StairsHelper = GameObject.FindWithTag("StairsHelper");
         playerAnimator = this.gameObject.GetComponent<Animator>();
         playerRigidBody2D.gravityScale = 20f;
-        trailRenderer = this.gameObject.GetComponentInChildren<TrailRenderer>(); // Assuming the Trail Renderer is a child of the character
+        trailRenderer = this.gameObject.GetComponentInChildren<TrailRenderer>(); 
         if (trailRenderer != null)
         {
-            trailRenderer.enabled = false; // Ensure it's disabled initially
+            trailRenderer.enabled = false; 
         }
     }
 
@@ -70,7 +69,7 @@ public class MainCharacterController : MonoBehaviour
         Jump();
         HandleWallClingTimer();
         LadderMovement();
-        DashCooldownTimer(); // Cooldown zamanlayıcısını güncelle
+        DashCooldownTimer(); 
         dashMovement();
         DashTimer();
     }
@@ -142,14 +141,14 @@ public class MainCharacterController : MonoBehaviour
 
     private void dashMovement()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1) && dashCooldownTimer <= 0) // Cooldown kontrolü
+        if (Input.GetKeyDown(KeyCode.Mouse1) && dashCooldownTimer <= 0) 
         {
             isDashing = true;
-            dashCooldownTimer = dashCooldown; // Cooldown zamanlayıcısını başlat
+            dashCooldownTimer = dashCooldown; 
 
             if (trailRenderer != null)
             {
-                trailRenderer.enabled = true; // Enable Trail Renderer when dashing starts
+                trailRenderer.enabled = true; 
             }
 
             float x = dashInputX * dashVectorMagnitude;
@@ -181,7 +180,7 @@ public class MainCharacterController : MonoBehaviour
 
                 if (trailRenderer != null)
                 {
-                    trailRenderer.enabled = false; // Disable Trail Renderer when dashing ends
+                    trailRenderer.enabled = false; 
                 }
             }
         }
@@ -191,7 +190,7 @@ public class MainCharacterController : MonoBehaviour
     {
         if (dashCooldownTimer > 0)
         {
-            dashCooldownTimer -= Time.deltaTime; // Cooldown zamanlayıcısını azalt
+            dashCooldownTimer -= Time.deltaTime; 
         }
     }
 
